@@ -260,9 +260,9 @@ function trocarImagem(escolha) {
           texto.innerText="São as diferentes formas que o satélite natural aparenta ter visto da Terra, mudando conforme a sua posição em relação ao Sol e ao nosso planeta. São elas: Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante"
           break;
         case "2":
-          urlNova = 'cordosol.jfif';
-          textoprincipal.innerText="A verdadeira cor do SOL ";
-          texto.innerText="O Sol visto a olho nu no espaço é na verdade branco. A coloração amarela que vemos aqui na superfície da Terra é por causa da atmosfera da Terra.";
+          urlNova = 'lua nova.jpeg';
+          textoprincipal.innerText="Lua Nova ";
+          texto.innerText="Lua Nova: A Lua fica entre a Terra e o Sol. O lado iluminado está virado para o lado oposto, então a Lua fica escura e quase invisível.";
           descrevefigura.innerText="Imagem do Sol na cor branca ";
           break;
         default:
