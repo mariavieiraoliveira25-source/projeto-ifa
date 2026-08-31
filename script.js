@@ -257,8 +257,7 @@ function trocarImagem(escolha) {
         case "1":
           urlNova = 'fases da lua.jpeg';
           textoprincipal.innerText="fases da lua";
-          texto.innerText="";
-          descrevefigura.innerText="Imagem do Sol na cor amarela ";
+          texto.innerText="São as diferentes formas que o satélite natural aparenta ter visto da Terra, mudando conforme a sua posição em relação ao Sol e ao nosso planeta. São elas: Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante"
           break;
         case "2":
           urlNova = 'cordosol.jfif';
