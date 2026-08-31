@@ -255,7 +255,7 @@ function trocarImagem(escolha) {
     const imagemnova=document.getElementById('imagemPrincipal');
     switch(escolha){
         case "1":
-          urlNova = 'café.png';
+          urlNova = 'fases da lua.jpeg';
           textoprincipal.innerText="fases da lua";
           texto.innerText="";
           descrevefigura.innerText="Imagem do Sol na cor amarela ";
