@@ -271,6 +271,18 @@ function trocarImagem(escolha) {
           texto.innerText="A lua crescente é a fase em que a iluminação da Lua começa a aumentar após a lua nova, caminhando em direção à lua cheia";
           descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
           break;
+        default:
+          urlNova = 'acessibilidade.png';
+          textoprincipal.innerText="Lua cheia";
+          texto.innerText="A lua cheia é uma das fases da lua em que a sua face voltada para a Terra fica totalmente iluminada pelo Sol";
+          descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
+          break;
+        default:
+          urlNova = 'acessibilidade.png';
+          textoprincipal.innerText="Lua Minguante";
+          texto.innerText="Lua Minguante é a última fase do ciclo lunar, quando a luz visível do satélite começa a diminuir após a Lua Cheia.";
+          descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
+          break;
         }
     imagemnova.src = urlNova;
     lerCartao(textoprincipal.innerText, texto.innerText, descrevefigura.innerText);
