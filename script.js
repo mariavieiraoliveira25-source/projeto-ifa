@@ -265,13 +265,13 @@ function trocarImagem(escolha) {
           texto.innerText="Lua Nova: A Lua fica entre a Terra e o Sol. O lado iluminado está virado para o lado oposto, então a Lua fica escura e quase invisível.";
           descrevefigura.innerText="Imagem do Sol na cor branca ";
           break;
-        default:
+        case "3":
           urlNova = 'acessibilidade.png';
           textoprincipal.innerText="Lua Crescente";
           texto.innerText="A lua crescente é a fase em que a iluminação da Lua começa a aumentar após a lua nova, caminhando em direção à lua cheia";
           descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
           break;
-        default:
+        case "4":
           urlNova = 'acessibilidade.png';
           textoprincipal.innerText="Lua cheia";
           texto.innerText="A lua cheia é uma das fases da lua em que a sua face voltada para a Terra fica totalmente iluminada pelo Sol";
