@@ -278,7 +278,7 @@ function trocarImagem(escolha) {
           descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
           break;
         default:
-          urlNova = 'acessibilidade.png';
+          urlNova = 'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2020/09/11/ritual-lua-minguante.jpg';
           textoprincipal.innerText="Lua Minguante";
           texto.innerText="Lua Minguante é a última fase do ciclo lunar, quando a luz visível do satélite começa a diminuir após a Lua Cheia.";
           descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
