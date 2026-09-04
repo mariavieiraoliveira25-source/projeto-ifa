@@ -267,9 +267,9 @@ function trocarImagem(escolha) {
           break;
         default:
           urlNova = 'acessibilidade.png';
-          textoprincipal.innerText="O que é Acessibilidade?";
-          texto.innerText="        A acessibilidade digital permite que qualquer        pessoa utilize sistemas computacionais        independentemente de suas limitações.";
-          descrevefigura.innerText="Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
+          textoprincipal.innerText="Lua Crescente";
+          texto.innerText="A lua crescente é a fase em que a iluminação da Lua começa a aumentar após a lua nova, caminhando em direção à lua cheia";
+          descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
           break;
         }
     imagemnova.src = urlNova;
