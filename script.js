@@ -266,13 +266,13 @@ function trocarImagem(escolha) {
           descrevefigura.innerText="Imagem do Sol na cor branca ";
           break;
         case "3":
-          urlNova = 'acessibilidade.png';
+          urlNova = 'https://static.todamateria.com.br/upload/qu/ar/quartominguante-cke.jpg';
           textoprincipal.innerText="Lua Crescente";
           texto.innerText="A lua crescente é a fase em que a iluminação da Lua começa a aumentar após a lua nova, caminhando em direção à lua cheia";
           descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
           break;
         case "4":
-          urlNova = 'acessibilidade.png';
+          urlNova = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/2011-03-19_Superl%C3%BAa.jpg/250px-2011-03-19_Superl%C3%BAa.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail';
           textoprincipal.innerText="Lua cheia";
           texto.innerText="A lua cheia é uma das fases da lua em que a sua face voltada para a Terra fica totalmente iluminada pelo Sol";
           descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
