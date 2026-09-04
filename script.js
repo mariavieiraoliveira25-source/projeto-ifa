@@ -263,25 +263,31 @@ function trocarImagem(escolha) {
           urlNova = 'lua nova.jpeg';
           textoprincipal.innerText="Lua Nova ";
           texto.innerText="Lua Nova: A Lua fica entre a Terra e o Sol. O lado iluminado está virado para o lado oposto, então a Lua fica escura e quase invisível.";
-          descrevefigura.innerText="Imagem do Sol na cor branca ";
+          descrevefigura.innerText="imagem da lua nova ";
           break;
         case "3":
           urlNova = 'https://static.todamateria.com.br/upload/qu/ar/quartominguante-cke.jpg';
           textoprincipal.innerText="Lua Crescente";
           texto.innerText="A lua crescente é a fase em que a iluminação da Lua começa a aumentar após a lua nova, caminhando em direção à lua cheia";
-          descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
+          descrevefigura.innerText="imagem da lua crescente";
           break;
         case "4":
           urlNova = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/2011-03-19_Superl%C3%BAa.jpg/250px-2011-03-19_Superl%C3%BAa.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail';
           textoprincipal.innerText="Lua cheia";
           texto.innerText="A lua cheia é uma das fases da lua em que a sua face voltada para a Terra fica totalmente iluminada pelo Sol";
-          descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
+          descrevefigura.innerText="imagem da lua cheia ";
           break;
-        default:
+        case "5":
           urlNova = 'https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2020/09/11/ritual-lua-minguante.jpg';
           textoprincipal.innerText="Lua Minguante";
           texto.innerText="Lua Minguante é a última fase do ciclo lunar, quando a luz visível do satélite começa a diminuir após a Lua Cheia.";
-          descrevefigura.innerText="        Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
+          descrevefigura.innerText="imagem da lua minguante";
+          break;
+        default:
+          urlNova = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7UeNw3QGE20nJR2QnocMZRkuyqtD4gQzbI9gvCTUDPEhO7m0uwY1zfqAH&s=10';
+          textoprincipal.innerText="A Lua tem Luz propria";
+          texto.innerText="Não, a Lua não tem luz própria. O brilho que vemos no céu à noite é, na verdade, a luz do Sol que bate na superfície da Lua e é refletida em direção à Terra.";
+          descrevefigura.innerText="imagem da luz refletida na terra";
           break;
         }
     imagemnova.src = urlNova;
